@@ -1,4 +1,8 @@
 {
+    "window.zoomLevel": 1,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "vim.useSystemClipboard": true,
     "vim.hlsearch": true,
     "vim.visualstar": true,
