@@ -1,8 +1,4 @@
 {
-    "window.zoomLevel": 1,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
     "vim.useSystemClipboard": true,
     "vim.hlsearch": true,
     "vim.visualstar": true,
@@ -10,6 +6,25 @@
         {
             "before": ["j","j"],
             "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<Down>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<Up>"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["<Left>"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["<Right>"]
         }
     ],
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
