@@ -24,7 +24,17 @@
             "after": ["<Right>"]
         }
     ],
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "window.zoomLevel": -1,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
     },
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.configFile": "",
+    "remote.SSH.remotePlatform": {
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+    
+    }
 }
